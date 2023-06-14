@@ -223,7 +223,8 @@ open class YSTabBar: UITabBarController {
         configuration.contentInsets = NSDirectionalEdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0)
         configuration.cornerStyle = .capsule
         configuration.baseForegroundColor = .white
-        configuration.baseBackgroundColor = .orange
+        configuration.baseBackgroundColor = UIColor(red: 14/255, green: 111/255, blue: 255/255, alpha: 1)
+
         return configuration
     }()
     
