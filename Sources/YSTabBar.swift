@@ -219,7 +219,7 @@ open class YSTabBar: UITabBarController {
     
     lazy var buttonDefoultConfigure: UIButton.Configuration = {
         var configuration = UIButton.Configuration.filled()
-        configuration.image = UIImage(systemName: "swift")
+        configuration.image = UIImage(named: "add-50")
         configuration.contentInsets = NSDirectionalEdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0)
         configuration.cornerStyle = .capsule
         configuration.baseForegroundColor = .white
